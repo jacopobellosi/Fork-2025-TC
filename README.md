@@ -7,10 +7,18 @@ Reference implementation for the paper:
 > IEEE Transactions on Computers, vol. 75, n. 1, 2026.
 > [DOI: 10.1109/TC.2025.3625044](https://doi.org/10.1109/TC.2025.3625044)
 
-A gate-level implementation of an MNRS quantum walk for the Subset Sum Problem
-on Johnson graphs, built on top of the [myQLM](https://myqlm.github.io/)
-framework. All shared quantum subroutines are part of the
-[`qat-utils`](https://github.com/tigerjack/qat-utils) package.
+A gate-level implementation of an MNRS quantum walk for the Subset Sum
+Problem on Johnson graphs, built on top of the
+[myQLM](https://myqlm.github.io/) framework. All shared quantum subroutines
+are part of the [`qat-utils`](https://github.com/tigerjack/qat-utils) package.
+
+> **About this fork.** This is the study fork used during a reproduction
+> and code-and-paper mapping project. Two upstream-confirmed correctness
+> fixes (symmetric Reflections A and B in the QPE block, and a minimum
+> precision ℓ_s for small instances) together with this rewritten `README`
+> were contributed via PR #1 and have been merged into the upstream
+> repository. The full analysis is hosted in the companion repository
+> [Solving-the-Subset-Sum-Problem-via-Quantum-Walk-Search](https://github.com/jacopobellosi/Solving-the-Subset-Sum-Problem-via-Quantum-Walk-Search).
 
 ## Requirements
 
